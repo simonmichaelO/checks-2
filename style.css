@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+body {
+    font-family: "inter", sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a >button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder !important;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.login {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600 !important;
+}
+
+
+/* hover colors*/
+.navbar-nav .nav-link.active {
+    color: #3a86ff;
+}
+
+.nav-link:hover {
+    color: #3a86ff;
+    text-decoration-line: underline;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+.shadow {
+    box-shadow: 0px 4px 20px rgba(58, 134, 255, 0.3) !important;
+}
+
+.vh {
+    height: 100vh;
+}
+
+.black {
+    color: black;
+}
+
+
+
+
+footer {
+    align-items: flex-end;
+}
+
+footer ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgray !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: lightgray !important;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: lightgray !important;
+}
+
+/* .full-height {
+  height: 60vh !important;
+} */
+
+.newsletter {
+    padding: 80px 0;
+
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h2 {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.newsletter .content .btn {
+    min-height: 55px;
+    font-weight: 600;
+    border-radius: 30px;
+  
+}
+
+.border-light {
+    border-radius: 3px !important;
+}
+
+
+.sub {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.bg-primary {
+    background-color:#035ADC !important ;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--site title-->
+    <title>login</title>
+
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="./ASSESTS/favicon.ico" />
+
+    <!--bootstrape css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!--custom css-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <!--font awesome js -->
+  <script
+    src="https://kit.fontawesome.com/892933c6a6.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <body>
+    <!-- start navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="./ASSESTS/logo.png" alt="talk to mee logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item pe-5">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown pe-5">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Book a session</a>
+                </li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Report a case </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Share a story</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown pe-4">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Talktomee
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">Partner with Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a href="#"
+            ><button class="btn btn-outline-primary ms-5" type="submit">
+              Log In
+            </button></a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar-->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card border shadow rounded-3 my-5">
+              <div class="card-body p-4 p-sm-5">
+                <form action="">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label fw-bold"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="doe@gmail.com"
+                    />
+                  </div>
+                  <div class="mb-3 my-4">
+                    <label
+                      for="exampleInputPassword1"
+                      class="form-label fw-bold"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                      placeholder="********"
+                    />
+                    <div class="text-left">
+                      <a href="./forgot-password.html" target="_blank"
+                        >Forgot Password?</a
+                      >
+                    </div>
+                  </div>
+                  <div class="d-grid gap-2 col-9 mx-auto">
+                    <button type="button" class="btn btn-primary">
+                      Log in
+                    </button>
+                  </div>
+                </form>
+                <div class="p col-9 mx-auto fw-bold">
+                  Don’t have an account? <a href="#">Create account</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--start footer-->
+    <footer class="newsletter bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="content">
+              <h2 class="text-light sub">Subscribe to Our Newsletters</h2>
+              <div class="input-group">
+                <input
+                  type="email "
+                  class="form-control text-white border border-light bg-primary"
+                  id="email"
+                  autocomplete="email"
+                  placeholder="Enter your email"
+                  aria-label="Email"
+                />
+                <span class="input-group-btn">
+                  <button
+                    class="btn btn-primary border border-light ms-3"
+                    type="submit"
+                  >
+                    Subscribe
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--end footer-->
+
+    <!--bootstrap js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
