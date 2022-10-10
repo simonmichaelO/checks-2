@@ -38,11 +38,12 @@ a >button {
 /* hover colors*/
 .navbar-nav .nav-link.active {
     color: #3a86ff;
+     text-decoration-line: underline;
 }
 
 .nav-link:hover {
     color: #3a86ff;
-    text-decoration-line: underline;
+
 }
 
 .dropdown-item:hover {
@@ -59,6 +60,17 @@ a >button {
 
 .black {
     color: black;
+}
+
+.accountcreate {
+    position: relative;
+    font-size: 14px;
+    display: inline;
+}
+
+.separate {
+    margin-left: 43%;
+    
 }
 
 
